@@ -15,24 +15,50 @@ div.pageheader {
     margin-bottom: 0px;
 }
 
-h1.container{
-    background-color: #E8D6CF;
+h1.container {
+    /*background-color: #E8D6CF;*/
     margin-top: 0px;
     padding-top: 5px;
 }
 
 /*NAVBAR*/ 
-nav#navvy.navbar.navbar-static-top{
+nav#navvy.navbar.navbar-static-top {
     margin-top: 0px;
     margin-bottom: 0px;
     color: #FFF6F0;
     background-color: #6A1525;
 }
 
-#navvy a{
+#navvy a {
     color:#FFF6F0;
 }
 
-#navvy a:hover{
+#navvy a:hover {
     background: none;
+}
+
+/*button*/ 
+button.navbar-toggle {
+    border: 1px solid #FFF6F0;
+}
+
+span.icon-bar {
+    border: 1px solid #FFF6F0;
+}
+
+/*TRAILER section*/
+.mainSec {
+    background-image: url('junkyard.jpg');
+    margin-top: 0px;
+    background-size: cover;
+}
+
+h1.container#trailer {
+    text-align: right;
+    background-color: rgbA(232, 214, 207, 0.0);
+}
+
+/*PREVIEW SECTION*/
+.previewThem {
+    margin:auto;
 }
